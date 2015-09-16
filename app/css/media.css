@@ -1,0 +1,159 @@
+/*PC*/
+
+@media screen and (max-width: 1300px) {
+
+  .header{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+
+  .main{
+    width: 100%;
+    text-align: center;
+    padding-left:1%;
+    padding-right:1%;
+  }
+
+  .slider-item {
+    margin-right:2%;
+    width: 32%;
+  }
+
+  .ideas{
+    width: 100%;
+    text-align: center;
+    padding-left:1%;
+    padding-right:1%;
+  }
+
+  .ideas-item{
+    margin-right:2%;
+    width: 31%;
+  }
+
+  .ideas-item.wide,
+  .ideas-item.item-6.wide{
+    margin-right:2%;
+    width: 64%;
+  }
+
+  .ideas-item .details {
+    width: 100%;
+  }
+
+  .ideas-item.wide .details {
+    width: 100%;
+  }
+  .footer .container{
+    padding-left:40px; 
+    padding-right:40px; 
+  }
+}
+
+/*Tablet*/
+
+@media screen and (max-width: 768px) {
+
+  .header{
+    padding-left: 50px;
+    padding-right: 50px;
+
+  }
+  .home {
+    background: #c8b5a3 url(../images/home_bg.jpg) no-repeat 50% 50%;
+  }
+
+  .slider-item .prev,
+  .slider-item .next{
+    top:100px;
+  }
+    
+  .slider-item .btn{
+    margin-top:200px;
+  }
+
+  .slider-item:nth-child(2) .btn{
+    margin-top:200px;
+  }
+
+  .partners-item{
+    width: 42%;
+    margin-right:4.0%;
+  }
+
+  .partners-item .add-item{
+    top:85px;
+    right:65px;
+  }
+
+  .p-item-footer p.descr{
+    padding: 20px;
+  }
+
+  .footer .container{
+    padding-left:40px; 
+    padding-right:40px; 
+  }
+}
+
+/*max-width: 450px*/
+
+@media (min-width: 320px) and (max-width: 450px) {
+.search input{ 
+    padding-left:5px;
+    padding-right:0; 
+}
+
+.search a.btn{
+    padding-left:5px;
+    padding-right:5px; 
+  }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 320px) {
+
+ .logo{
+    position: relative;
+    top: 150px;
+  }
+
+  .home h1 {
+    font-size: 30px;
+  }
+
+  .home p {
+    font-size: 19px;
+  }
+
+  .slider-item {
+    width: 100%;
+  }
+
+  .partners-item{
+    width: 100%;
+  }
+
+  .slider-item .next,
+  .slider-item .prev{
+    display: none;
+  }
+
+  .ideas-item{
+   width: 100%;
+  }
+
+  .ideas-item.wide,
+  .ideas-item.item-6.wide{
+    width: 100%;
+  }
+
+  .search a.btn{
+    position: relative;
+    top: 30px;
+  }
+}
